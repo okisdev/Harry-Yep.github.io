@@ -1,0 +1,75 @@
+/* Font */
+body{
+  font-family: 'Castoro', serif;
+  margin: 0;
+}
+
+/* Dark Mode*/
+body {
+  background-color: #4D555E;
+  color: #2E2E2E;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #7c868d;
+  }
+}
+
+
+.text-content{
+  margin-top: 150px;
+  padding: 90px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.title{
+  letter-spacing:10px;
+  font-size: 80px;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+}
+.content{
+  line-height: 24px;
+  margin-left: 5px;
+}
+
+.content,a{
+  color: #2E2E2E;
+  text-decoration: none;
+}
+.img-content{
+  padding-bottom: 70px;
+  padding-top: 110px;
+  padding-right: 170px;
+}
+.img-detail{
+  max-width: 100%;
+  height:auto;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 3px #ccc;
+}
+.footer{
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+
+/* Adaptive */
+@media (max-width: 1115px){
+  .gone-me{
+    display: none!important;
+  }
+  .display-me{
+     display: block !important;
+  }
+  .img-content{
+    padding:70px;
+  }
+  .text-content{
+    padding: 90px;
+  }
+}
